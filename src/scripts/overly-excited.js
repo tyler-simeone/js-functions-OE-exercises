@@ -22,4 +22,4 @@ function addExcitement (theWordArray) {
 };
 
 // Invoke the function and pass in the array
-addExcitement(sentence)
+addExcitement(sentence);
