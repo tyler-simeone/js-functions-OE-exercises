@@ -1,7 +1,6 @@
-// Create an array that contains the words in the sentence
 let sentence = ["The","walrus","danced","through","the","trees","in","the","light","of","the","moon"];
 
-function addExcitement (theWordArray, char, num) {
+const addExcitement = (theWordArray, char, num) => {
 
     let buildMeUp = "";
 
@@ -14,14 +13,14 @@ function addExcitement (theWordArray, char, num) {
         }
         console.log(buildMeUp);
     }
-    
 };
 
-function repeatChar (char, num) {
+const repeatChar = (char, num) => {
     let chars = "";
     for (let i = 0; i < num; i++) {
         chars += char;
     }
     return chars;
 }
+
 addExcitement(sentence, "?", 4);
